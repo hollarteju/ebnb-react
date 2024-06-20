@@ -7,7 +7,8 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import config from "../../config.json";
-
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 const PrevArrow = (props) => {
   const { onClick } = props;
   return (

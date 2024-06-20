@@ -68,6 +68,7 @@ const settings = {
   autoplaySpeed: 2000,
   vertical: true,
   verticalSwiping: true,
+  
 
   responsive: [
     {
@@ -111,7 +112,8 @@ function HotelDetailContent() {
     {
       key: "front_desk_24hrs",
       label: "24hr Front Desk",
-      icon: icons.faReception,
+      // icon: icons.faReception,
+      icon: ""
     },
     {
       key: "electricity_24hrs",
@@ -121,7 +123,7 @@ function HotelDetailContent() {
     { key: "aircondition", label: "Air Condition", icon: icons.faWind },
     { key: "internet", label: "Internet", icon: icons.faWifi },
     { key: "bar", label: "Bar", icon: icons.faGlassMartiniAlt },
-    { key: "restaurant", label: "Restaurant", icon: icons.faUtensil },
+    { key: "restaurant", label: "Restaurant", icon: "" },
     { key: "garden", label: "Garden", icon: icons.faLeaf },
     { key: "outdoor_poor", label: "Outdoor Pool", icon: icons.faSwimmingPool },
     {
@@ -285,7 +287,7 @@ function HotelDetailContent() {
       label: "CCTV/Camera Security",
       icon: icons.faVideo,
     },
-    { key: "security_guard", label: "Security Guard", icon: icons.faSecurity },
+    { key: "security_guard", label: "Security Guard", icon: "" },
     { key: "parking_nearby", label: "Parking Nearby", icon: icons.faParking },
     {
       key: "mobile_phone_reception",
@@ -300,7 +302,7 @@ function HotelDetailContent() {
     {
       key: "rooms_facilities_for_disable",
       label: "Rooms Facilities for Disable",
-      icon: icons.faAccessibleIcon,
+      icon: "",
     },
     { key: "valet_parking", label: "Valet Parking", icon: icons.faCar },
     {
@@ -308,7 +310,7 @@ function HotelDetailContent() {
       label: "Safety Deposit Boxes",
       icon: icons.faLock,
     },
-    { key: "in_room_safe", label: "In-Room Safe", icon: icons.faSafe },
+    { key: "in_room_safe", label: "In-Room Safe", icon: ""},
     { key: "fireplace", label: "Fireplace", icon: icons.faFire },
     { key: "babysitting", label: "Babysitting", icon: icons.faBaby },
     { key: "laundry", label: "Laundry", icon: icons.faTshirt },
@@ -339,7 +341,7 @@ function HotelDetailContent() {
     {
       key: "parking_security",
       label: "Parking Security",
-      icon: icons.faSecurity,
+      icon: "",
     },
     { key: "surveillance", label: "Surveillance", icon: icons.faVideo },
     { key: "tea_facilities", label: "Tea Facilities", icon: icons.faMugHot },
@@ -353,9 +355,9 @@ function HotelDetailContent() {
       icon: icons.faMoneyBill,
     },
     { key: "emergency_exit", label: "Emergency Exit", icon: icons.faDoorOpen },
-    { key: "hair_dryer", label: "Hair Dryer", icon: icons.faBlowDryer },
+    { key: "hair_dryer", label: "Hair Dryer", icon: "" },
     { key: "first_aid_box", label: "First Aid Box", icon: icons.faFirstAid },
-    { key: "mobile_police", label: "Mobile Police", icon: icons.faPolice },
+    { key: "mobile_police", label: "Mobile Police", icon: "" },
     {
       key: "room_panic_system",
       label: "Room Panic System",
