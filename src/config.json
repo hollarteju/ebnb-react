@@ -2,9 +2,5 @@
   "apiUrl": "https:ebnbhotels.vercel.app/api",
   "imageUrl": "https:ebnbhotels.vercel.app/images",
   "roomImageUrl": "https:ebnbhotels.vercel.app/room_images",
-  "selfiesImages": "https:ebnbhotels.vercel.app",
-  "featureFlags": {
-    "enableFeatureA": true,
-    "enableFeatureB": true
-  }
+  "selfiesImages": "https:ebnbhotels.vercel.app"
 }
