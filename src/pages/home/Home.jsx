@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <>
       <Offers />
-      {/* <HotelDeals />
+      <HotelDeals />
       <Hotels />
       <HotelCategories />
       <TrandingDetination />
       <Explore />
       <InspectedRoom />
       <DiscoverCity />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
