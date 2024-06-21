@@ -68,7 +68,7 @@ import SupportEngine from "./components/SupportEngine";
 function App() {
   
   return (
-    <>
+    <div>
       
 
       
@@ -76,7 +76,7 @@ function App() {
       {/* <ChatComponent /> */}
       <SupportEngine />
       <WhatsAppIcon />
-    </>
+    </div>
   );
 }
 
