@@ -113,7 +113,6 @@ function App() {
 
   return (
     <>
-    <Router>
       {/* Conditional rendering of Navbar */}
       {isPartnerDashboard ||
       isAdminDashboard ||
@@ -249,7 +248,6 @@ function App() {
       {/* <ChatComponent /> */}
       <SupportEngine />
       <WhatsAppIcon />
-    </Router>
     </>
   );
 }
