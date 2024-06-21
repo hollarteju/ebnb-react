@@ -112,7 +112,7 @@ function App() {
   }
 
   return (
-    <Router basename="/">
+    <>
       {/* Conditional rendering of Navbar */}
       {isPartnerDashboard ||
       isAdminDashboard ||
@@ -152,7 +152,7 @@ function App() {
         <BookingForm/>
       )}
 
-      <Routes>
+      <Routes basename= "/">
         <Route path="/" element={<Home />} />
         {/* <Route path="/support" element={<SupportAdmin />} /> */}
 
@@ -248,7 +248,7 @@ function App() {
       {/* <ChatComponent /> */}
       <SupportEngine />
       <WhatsAppIcon />
-    </Router>
+    </>
   );
 }
 
