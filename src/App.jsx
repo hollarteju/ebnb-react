@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Routes, useLocation, useNavigate } from "react-router-dom";
+import {HashRouter as Router, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import BookingForm from "./components/bookingForm/BookinForm";
@@ -112,7 +112,7 @@ function App() {
   }
 
   return (
-    <>
+    <Router basename="/">
       {/* Conditional rendering of Navbar */}
       {isPartnerDashboard ||
       isAdminDashboard ||
@@ -149,7 +149,7 @@ function App() {
       isBookingConfirmed ||
       isBookingExpire ||
       isForggotPassword ? null : (
-        ""
+        <BookingForm/>
       )}
 
       <Routes>
@@ -248,7 +248,7 @@ function App() {
       {/* <ChatComponent /> */}
       <SupportEngine />
       <WhatsAppIcon />
-    </>
+    </Router>
   );
 }
 
