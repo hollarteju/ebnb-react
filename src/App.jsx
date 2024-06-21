@@ -113,7 +113,7 @@ function App() {
 
   return (
     <>
-    <Router basename="/myapp">
+    <Router>
       {/* Conditional rendering of Navbar */}
       {isPartnerDashboard ||
       isAdminDashboard ||
