@@ -113,44 +113,7 @@ function App() {
 
   return (
     <>
-      {/* Conditional rendering of Navbar */}
-      {isPartnerDashboard ||
-      isAdminDashboard ||
-      isPartnerDashboard2 ||
-      isAdminDashboard2 ? null : (
-        <Navbar />
-      )}
-
-      {/* Conditional rendering of BookingForm */}
-      {isHotelDetailPage ||
-      isHotelCheckout ||
-      isRegister ||
-      isPartnerRegisterForm ||
-      isLogin ||
-      isPartnerDashboard ||
-      isAdminDashboard ||
-      isUpdateForm ||
-      isListProperty ||
-      isPartnerDashboard2 ||
-      isAdminDashboard2 ||
-      isResetPassword ||
-      isSearchForm ||
-      isRoom ||
-      isRegisterForm ||
-      ishotelUpdate ||
-      isSuccess ||
-      ishotelInfo ||
-      isDiscount ||
-      isCheckInDetails ||
-      isCheckIUpdate ||
-      CheckIUpdate ||
-      isBookingSuccess ||
-      isBooking ||
-      isBookingConfirmed ||
-      isBookingExpire ||
-      isForggotPassword ? null : (
-        <BookingForm/>
-      )}
+      
 
       
       <ScrollToTopButton />
