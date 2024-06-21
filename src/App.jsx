@@ -69,13 +69,7 @@ function App() {
   
   return (
     <div>
-      
-
-      
-      <ScrollToTopButton />
-      {/* <ChatComponent /> */}
-      <SupportEngine />
-      <WhatsAppIcon />
+      <p>testing.......</p>
     </div>
   );
 }
